@@ -1,1 +1,43 @@
+body {
+    display: flex;
+    flex-direction: row;
+    height: 49.5vw;
+}
+
+div {
+    display: flex;
+    flex-direction: column;
+    flex-shrink: 1;
+    flex-grow: 5;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    flex-basis: auto;
+    flex-grow: 5;
+    flex-shrink: 1;
+}
+
+nav {
+    flex-basis: 25vw;
+    flex-grow: 0;
+    flex-shrink: 0;
+}
+
+header {
+    flex-basis: 130px;
+    flex-shrink: 0;
+    flex-grow: 0;
+}
+
+article {
+    flex-basis: 500px;
+}
+
+footer {
+    flex-basis: 130px;
+    flex-grow: 0;
+    flex-shrink: 1;
+}
 /*Schrijf hier jouw CSS*/
